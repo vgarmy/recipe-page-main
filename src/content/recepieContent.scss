@@ -1,0 +1,87 @@
+.container{
+    background: var(--White);
+    font-family: var(--font-family-text);
+    width: 600px;
+}
+
+.container_recepie{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1, h3{
+    font-family: var(--font-family-main);
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+h2{
+    font-family: var(--font-family-text);
+    color: var(--Dark-Raspberry);
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.8rem;
+    color: var(--Dark-Raspberry);
+}
+
+.container_recepie_ingres,
+.container_recepie_ingrediant{
+    font-weight: 400;
+    color: var(--Wenge-Brown);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.container_recepie_preperation{
+    background-color: var(--Rose-White);
+    padding: 1.5rem 2rem;
+    border-radius: 25px;
+    line-height: 1.4;
+}
+
+.container_recepie_preperation ul,
+.container_recepie_ingrediant ul,
+.container_recepie_instructions_points ol{
+    margin-top: 1rem;
+}
+
+.container_recepie_preperation li,
+.container_recepie_ingrediant li,
+.container_recepie_instructions_points li{
+    margin: 1rem 1rem 0 1rem;
+}
+
+.container_recepie_preperation li > span,
+.container_recepie_ingrediant li > span{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 1rem;
+}
+
+li::marker {
+    color: var(--Dark-Raspberry);
+    font-weight: 600;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+    .container_top_image{
+        background: url("./../assets/images/image-omelette.jpeg") center center;
+        width: 100%;
+        height: 160px;
+        background-size: cover;
+    }
+    .container_recepie{
+        padding: 40px;
+    }
+}

@@ -54,4 +54,3 @@ Train on the @media only screen
 
 - Website - [Vladimir GitHub Page](https://github.com/vgarmy/)
 - Frontend Mentor - [@vgarmy](https://www.frontendmentor.io/profile/vgarmy)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)

@@ -54,10 +54,25 @@ function recepieContent() {
                     <p>The table below shows nutritional values per serving without the additional fillings.</p>
                 </div>
                 <div className="container_recepie_instructions_nutrition_info_facts">
-                    <p>Calories 277kcal</p>
-                    <p>Carbs 0g</p>
-                    <p>Protein 20g</p>
-                    <p>Fat 22g</p>
+                    <div className='container_recepie_instructions_nutrition_info_facts_line'>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_type'>Calories</p>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_amount'>277kcal</p>
+                    </div>
+                    <hr />
+                    <div className='container_recepie_instructions_nutrition_info_facts_line'>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_type'>Carbs</p>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_amount'>0g</p>
+                    </div>
+                    <hr />
+                    <div className='container_recepie_instructions_nutrition_info_facts_line'>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_type'>Protein</p>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_amount'>20g</p>
+                    </div>
+                    <hr />
+                    <div className='container_recepie_instructions_nutrition_info_facts_line'>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_type'>Fat</p>
+                        <p className='container_recepie_instructions_nutrition_info_facts_line_amount'>22g</p>
+                    </div>
                 </div>
             </div>
         </div>
